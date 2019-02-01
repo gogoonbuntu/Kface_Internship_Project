@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d8b391-abda-4fdc-8d66-c5c3cb8067a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/appstore.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area1_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area2_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area3_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area4_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area5_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checking.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checking.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/googleplay.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checking.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +18,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/checking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="114">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,12 +47,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/checking.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3268">
-              <caret line="198" column="20" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
+            <state relative-caret-position="817">
+              <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
               <folding>
                 <element signature="e#5#23#0" />
                 <element signature="e#42#64#0" />
-                <element signature="e#148#186#0" />
                 <element signature="e#193#299#0" />
                 <element signature="e#342#397#0" />
                 <element signature="e#410#454#0" />
@@ -87,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/checking.css" />
         <option value="$PROJECT_DIR$/src/checking.html" />
+        <option value="$PROJECT_DIR$/src/checking.css" />
       </list>
     </option>
   </component>
@@ -127,7 +117,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549010234276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549011492104" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -151,12 +141,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="checking.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/intern-Checking/src/checking.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/intern-Checking/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.checking.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -171,12 +161,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548914641707</updated>
       <workItem from="1548914646689" duration="9091000" />
-      <workItem from="1548980293583" duration="19079000" />
+      <workItem from="1548980293583" duration="20194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28170000" />
+    <option name="totallyTimeSpent" value="29285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -218,10 +208,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/checking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="114">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -246,12 +235,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/checking.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3268">
-          <caret line="198" column="20" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
+        <state relative-caret-position="817">
+          <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
           <folding>
             <element signature="e#5#23#0" />
             <element signature="e#42#64#0" />
-            <element signature="e#148#186#0" />
             <element signature="e#193#299#0" />
             <element signature="e#342#397#0" />
             <element signature="e#410#454#0" />
