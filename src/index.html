@@ -36,6 +36,7 @@
         </div>
     </div>
     <div class="area a2">
+        <div class="corner"></div>
         <div class="box">
             <div class="contents">
                 <h1>월세체크는 귀찮지만, <br>
@@ -47,11 +48,12 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area1_phone.svg">
+                <img class="pimg" id="pimg1" src="area1_phone.svg">
             </div>
         </div>
     </div>
     <div class="area a3">
+        <div class="corner"></div>
         <div class="box">
             <div class="contents">
                 <h1>미납자 관리는 피곤하지만, <br>
@@ -63,11 +65,12 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area2_phone.svg">
+                <img class="pimg" id="pimg2" src="area2_phone.svg">
             </div>
         </div>
     </div>
     <div class="area a4">
+        <div class="corner"></div>
         <div class="box">
             <div class="contents">
                 <h1>계약만기일 체크는 힘들지만, <br>
@@ -79,11 +82,12 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area3_phone.svg">
+                <img class="pimg" id="pimg3" src="area3_phone.svg">
             </div>
         </div>
     </div>
     <div class="area a5">
+        <div class="corner"></div>
         <div class="box">
             <div class="contents">
                 <h1>세입자관리는 복잡하지만, <br>
@@ -96,11 +100,12 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area4_phone.svg">
+                <img class="pimg" id="pimg4" src="area4_phone.svg">
             </div>
         </div>
     </div>
     <div class="area a6">
+        <div class="corner"></div>
         <div class="box">
             <div class="contents">
                 <h1>파악하는 것은 번거롭지만, <br>
@@ -112,7 +117,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area5_phone.svg">
+                <img class="pimg" id="pimg5" src="area5_phone.svg">
             </div>
         </div>
     </div>
@@ -144,9 +149,18 @@
 </html>
 
 <script>
+    var ismobile = false;
+    mobileCheck();
     window.onscroll = function() {myFunction()};
 
+    function mobileCheck () {
+        if(window.document.body.clientWidth>768) ismobile=false;
+        else ismobile=true;
+    }
+
     function myFunction() {
+        console.log(window.scrollY);
+        console.log(ismobile);
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             document.getElementById("attop").className = "logo notTop";
             document.getElementById("links").className = "links";
@@ -160,15 +174,43 @@
             document.getElementById("logo").className = "hide";
             document.getElementById("logow").className = "";
         }
-        var a = document.getElementsByClassName("pimg");
-        var curp=0;
-        for(var i=1;i<8;i++){
-            if(window.scrollY>1080*i){
-                console.log("curp: ", curp);
-                curp=i;
-            }
-            else curp--;
+        mobileCheck();
+        if(ismobile){
         }
+        else{
+            if(window.scrollY>1080/2 && window.scrollY<1080/2+1080){
+                document.getElementById("pimg1").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg1").className = "pimg";
+            }
+            if(window.scrollY>1080/2+1080 && window.scrollY<1080/2+2160){
+                document.getElementById("pimg2").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg2").className = "pimg";
+            }
+            if(window.scrollY>1080/2+2160 && window.scrollY<1080/2+3240){
+                document.getElementById("pimg3").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg3").className = "pimg";
+            }
+            if(window.scrollY>1080/2+3240 && window.scrollY<1080/2+4320){
+                document.getElementById("pimg4").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg4").className = "pimg";
+            }
+            if(window.scrollY>1080/2+4320 && window.scrollY<1080/2+5400){
+                document.getElementById("pimg5").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg5").className = "pimg";
+            }
+        }
+
     }
 
 </script>
+

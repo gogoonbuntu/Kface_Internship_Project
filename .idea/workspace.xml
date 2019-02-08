@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d8b391-abda-4fdc-8d66-c5c3cb8067a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/area1_phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area2_phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area3_phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area4_phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area5_phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/area1_phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/area2_phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/area3_phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/area4_phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/area5_phone.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/checking.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
@@ -30,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -38,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/checking.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -60,6 +48,9 @@
       <find>img</find>
       <find>background</find>
       <find>logo</find>
+      <find>contents</find>
+      <find>expla</find>
+      <find>pimg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,12 +151,12 @@
       <workItem from="1548914646689" duration="9091000" />
       <workItem from="1548980293583" duration="20782000" />
       <workItem from="1549498226528" duration="22619000" />
-      <workItem from="1549607233907" duration="2533000" />
+      <workItem from="1549607233907" duration="9166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55025000" />
+    <option name="totallyTimeSpent" value="61658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -212,14 +203,14 @@
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/checking.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
         </state>
       </provider>
     </entry>

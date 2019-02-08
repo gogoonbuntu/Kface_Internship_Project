@@ -1,17 +1,10 @@
-body {
-    margin: 0;
-}
 
-.a2 .pimg,
-.a3 .pimg,
-.a4 .pimg,
-.a5 .pimg,
-.a6 .pimg{
-    width: 500%;
-}
 /*기본 적용사항*/
 .hide {
     display: none;
+}
+body {
+    margin: 0;
 }
 
 a:link {color: black; text-decoration: none;}
@@ -21,6 +14,85 @@ a:hover {color: black; text-decoration: none;}
 .links.white a:link {color: white; text-decoration: none;}
 .links.white a:visited {color: white; text-decoration: none;}
 .links.white a:hover {color: white; text-decoration: none;}
+
+/* 코너 */
+
+.a2 .corner{
+    position:absolute;
+    top:2060px;
+    right:0;
+    width:0px;
+    height:0px;
+    border-top: 100px solid #d9d9d9;
+    border-right: 100px solid #8c8c8c;
+    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+}
+
+.a3 .corner{
+    position:absolute;
+    top:3140px;
+    right:0;
+    width:0px;
+    height:0px;
+    border-top: 100px solid #d9d9d9;
+    border-right: 100px solid #ffffff;
+    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+}
+
+.a4 .corner{
+    position:absolute;
+    top:4220px;
+    right:0;
+    width:0px;
+    height:0px;
+    border-top: 100px solid #d9d9d9;
+    border-right: 100px solid #8c8c8c;
+    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+}
+
+.a5 .corner{
+    position:absolute;
+    top:5300px;
+    right:0;
+    width:0px;
+    height:0px;
+    border-top: 100px solid #d9d9d9;
+    border-right: 100px solid #ffffff;
+    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+}
+
+.a6 .corner{
+    position:absolute;
+    top:6380px;
+    right:0;
+    width:0px;
+    height:0px;
+    border-top: 100px solid #d9d9d9;
+    border-right: 100px solid #8c8c8c;
+    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
+}
+
+/*애니메이션을 위한*/
+.pimg{
+    positon:relative;
+    top:0px;
+    transition: 3s;
+}
+.here {
+    position:relative;
+    top:-30px;
+    transition: 3s;
+}
 
 
 /*상단바에 적용*/
@@ -68,6 +140,16 @@ a:hover {color: black; text-decoration: none;}
 }
 
 /*내용*/
+
+.a2 .pimg,
+.a3 .pimg,
+.a4 .pimg,
+.a5 .pimg,
+.a6 .pimg{
+    width: 500%;
+    transition: 3s;
+}
+
 .mdownload{
     display:none;
 }
@@ -89,7 +171,9 @@ a:hover {color: black; text-decoration: none;}
 }
 .a3 .explanation,
 .a5 .explanation{
-    color: #e8e8e8
+    color: #e8e8e8;
+    border-left: 4px solid #E62B1E;
+    padding-left: 5px;
 }
 
 .a2 .explanation,
@@ -98,8 +182,20 @@ a:hover {color: black; text-decoration: none;}
 {
     color: #525252;
     font-weight: bold;
+    border-left: 4px solid #E62B1E;
+    padding-left: 5px;
 }
-
+.a2 .contents,
+.a3 .contents,
+.a4 .contents,
+.a5 .contents,
+.a6 .contents,
+.a7 .contents
+ {
+    position:absolute;
+    margin-left: 10%;
+    font-size: 1.2em;
+}
 
 /*내용 Area1*/
 .a1
@@ -136,7 +232,6 @@ a:hover {color: black; text-decoration: none;}
     display: inline-block;
     align-items: center;
     width: 230px;
-    /*height: 55px;*/
     text-align: center;
     cursor: pointer;
 }
@@ -177,10 +272,8 @@ a:hover {color: black; text-decoration: none;}
 
 /*내용 Area2*/
 .a2 .contents {
-    position:absolute;
     top:1500px;
-    margin-left: 10%;
-    font-size: 1.2em;
+
 }
 .a2 .box .phone {
     position: absolute;
@@ -190,11 +283,8 @@ a:hover {color: black; text-decoration: none;}
 
 /*내용 Area3*/
 .a3 .contents {
-    position:absolute;
     color:white;
     top:2580px;
-    margin-left: 10%;
-    font-size: 1.2em;
 }
 .a3 .box .phone {
     position: absolute;
@@ -204,10 +294,7 @@ a:hover {color: black; text-decoration: none;}
 
 /*내용 Area4*/
 .a4 .contents {
-    position:absolute;
     top:3660px;
-    margin-left: 10%;
-    font-size: 1.2em;
 }
 .a4 .box .phone {
     position: absolute;
@@ -217,11 +304,8 @@ a:hover {color: black; text-decoration: none;}
 
 /*내용 Area5*/
 .a5 .contents {
-    position:absolute;
     color:white;
     top:4740px;
-    margin-left: 10%;
-    font-size: 1.2em;
 }
 .a5 .box .phone {
     position: absolute;
@@ -230,10 +314,7 @@ a:hover {color: black; text-decoration: none;}
 }
 /*내용 Area6*/
 .a6 .contents {
-    position:absolute;
     top:5820px;
-    margin-left: 10%;
-    font-size: 1.2em;
 }
 .a6 .box .phone {
     position: absolute;
@@ -242,11 +323,8 @@ a:hover {color: black; text-decoration: none;}
 }
 /*내용 Area7*/
 .a7 .contents {
-    position:absolute;
     color: white;
     top:6900px;
-    margin-left: 10%;
-    font-size: 1.2em;
     text-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
 }
 .a7 .download {
