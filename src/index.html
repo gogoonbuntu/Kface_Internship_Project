@@ -9,8 +9,8 @@
 <body>
 
 <div id="attop" class="logo" style="position:fixed">
-    <img src="logo.png">
-
+    <img id="logow" class="" src="logow.png">
+    <img id="logo" class="hide" src="logo.png">
     <div id="links" class="links white" style="display: inline">
         <a href="http://www.ddhouse.co.kr" style="cursor:pointer" target="_blank"><span>디디하우스</span></a>
         <a href="#" style="cursor:pointer"><span>맨위로</span></a>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area1_phone.png">
+                <img class="pimg" src="area1_phone.svg">
             </div>
         </div>
     </div>
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area2_phone.png">
+                <img class="pimg" src="area2_phone.svg">
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area3_phone.png">
+                <img class="pimg" src="area3_phone.svg">
             </div>
         </div>
     </div>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area4_phone.png">
+                <img class="pimg" src="area4_phone.svg">
             </div>
         </div>
     </div>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" src="area5_phone.png">
+                <img class="pimg" src="area5_phone.svg">
             </div>
         </div>
     </div>
@@ -151,10 +151,14 @@
             document.getElementById("attop").className = "logo notTop";
             document.getElementById("links").className = "links";
             document.getElementById("md").className = "mdownload scrolled";
+            document.getElementById("logo").className = "";
+            document.getElementById("logow").className = "hide";
         } else {
             document.getElementById("attop").className = "logo";
             document.getElementById("links").className = "links white";
             document.getElementById("md").className = "mdownload";
+            document.getElementById("logo").className = "hide";
+            document.getElementById("logow").className = "";
         }
         var a = document.getElementsByClassName("pimg");
         var curp=0;

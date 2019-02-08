@@ -1,6 +1,14 @@
 body {
     margin: 0;
 }
+
+.a2 .pimg,
+.a3 .pimg,
+.a4 .pimg,
+.a5 .pimg,
+.a6 .pimg{
+    width: 500%;
+}
 /*기본 적용사항*/
 .hide {
     display: none;
@@ -127,8 +135,8 @@ a:hover {color: black; text-decoration: none;}
 .a1 .download {
     display: inline-block;
     align-items: center;
-    width: 185px;
-    height: 55px;
+    width: 230px;
+    /*height: 55px;*/
     text-align: center;
     cursor: pointer;
 }
