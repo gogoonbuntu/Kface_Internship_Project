@@ -140,7 +140,9 @@ a:hover {color: black; text-decoration: none;}
 }
 
 /*내용*/
-
+.logogif{
+    width: 130px;
+}
 .a2 .pimg,
 .a3 .pimg,
 .a4 .pimg,
@@ -342,6 +344,16 @@ a:hover {color: black; text-decoration: none;}
 }
 
 @media only screen and ( max-width: 768px ){
+    .logogif{
+        width: 100px;
+        animation: logogif steps(14) 1s both;
+    }
+    .play{
+        animation-play-state: running;
+    }
+    .pause{
+        animation-play-state: paused;
+    }
     .mdownload{
         display : block;
     }

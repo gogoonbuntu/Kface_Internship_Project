@@ -22,12 +22,13 @@
         <div class="box">
             <div class="contents">
                 가장 쉽고 편리한 건물관리 앱
+                <!--<div style="display:inline-block"><img src="logo.gif" style="width:140px"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>-->
                 <h1>체킹, 건물관리가 쉬워진다</h1>
                 <div class="download">
                     <img src="googleplay.svg" href="" target="_blank">
                 </div>
                 <div class="download">
-                    <img src="appstore.png" href="" target="_blank">
+                    <img src="appstore.svg" href="" target="_blank">
                 </div>
             </div>
             <div id="md" class="mdownload">
@@ -39,7 +40,7 @@
         <div class="box">
             <div class="contents">
                 <h1>월세체크는 귀찮지만, <br>
-                    <span style="color:#E62B1E; font-size: 1.2em ">체킹</span>은 쉽습니다
+                    <div style="display:inline-block"><img src="logo.gif" id="logogif1" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     계좌를 등록해두면, 자동으로 <span style="color:black; font-size: 1.1em">월세체크</span>가 됩니다.<br><br>
@@ -71,7 +72,7 @@
         <div class="box">
             <div class="contents">
                 <h1>계약만기일 체크는 힘들지만, <br>
-                    <span style="color:#E62B1E; font-size: 1.2em ">체킹</span>은 쉽습니다
+                    <div style="display:inline-block"><img src="logo.gif" id="logogif2" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     <span style="color:black; font-size: 1.1em">계약 끝 1달 전</span>에 만기되는 세입자를 알려드립니다.<br><br>
@@ -104,7 +105,7 @@
         <div class="box">
             <div class="contents">
                 <h1>파악하는 것은 번거롭지만, <br>
-                    <span style="color:#E62B1E; font-size: 1.2em ">체킹</span>은 쉽습니다
+                    <div style="display:inline-block"><img src="logo.gif" id="logogif3" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     건물에 대한 <span style="color:black; font-size: 1.1em">모든 내용이 한 눈에</span> 들어옵니다.<br><br>
@@ -130,7 +131,7 @@
                     <img src="googleplay.svg" href="">
                 </div>
                 <div class="download">
-                    <img src="appstore.png" href="">
+                    <img src="appstore.svg" href="">
                 </div>
             </div>
             <div class="phone">
@@ -171,35 +172,50 @@
         if(ismobile){
         }
         else{
-            if(window.scrollY>1080/2 && window.scrollY<1080/2+1080){
+            if(window.scrollY>1080/2 && window.scrollY<1080+1080){
                 document.getElementById("pimg1").className = "pimg here";
+                if(document.getElementById("logogif1").className==="logogif pause"){
+                    document.getElementById("logogif1").className="logogif play"
+                    document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
+                }
             }
             else{
                 document.getElementById("pimg1").className = "pimg";
+                document.getElementById("logogif1").className = "logogif pause";
             }
-            if(window.scrollY>1080/2+1080 && window.scrollY<1080/2+2160){
+            if(window.scrollY>1080/2+1080 && window.scrollY<1080+2160){
                 document.getElementById("pimg2").className = "pimg here";
             }
             else{
                 document.getElementById("pimg2").className = "pimg";
             }
-            if(window.scrollY>1080/2+2160 && window.scrollY<1080/2+3240){
+            if(window.scrollY>1080/2+2160 && window.scrollY<1080+3240){
                 document.getElementById("pimg3").className = "pimg here";
+                if(document.getElementById("logogif2").className==="logogif pause"){
+                    document.getElementById("logogif2").className="logogif play"
+                    document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
+                }
             }
             else{
                 document.getElementById("pimg3").className = "pimg";
+                document.getElementById("logogif2").className = "logogif pause";
             }
-            if(window.scrollY>1080/2+3240 && window.scrollY<1080/2+4320){
+            if(window.scrollY>1080/2+3240 && window.scrollY<1080+4320){
                 document.getElementById("pimg4").className = "pimg here";
             }
             else{
                 document.getElementById("pimg4").className = "pimg";
             }
-            if(window.scrollY>1080/2+4320 && window.scrollY<1080/2+5400){
+            if(window.scrollY>1080/2+4320 && window.scrollY<1080+5400){
                 document.getElementById("pimg5").className = "pimg here";
+                if(document.getElementById("logogif3").className==="logogif pause"){
+                    document.getElementById("logogif3").className="logogif play"
+                    document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
+                }
             }
             else{
                 document.getElementById("pimg5").className = "pimg";
+                document.getElementById("logogif3").className = "logogif pause";
             }
         }
 
