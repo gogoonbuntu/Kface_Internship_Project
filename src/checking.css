@@ -344,6 +344,11 @@ a:hover {color: black; text-decoration: none;}
 }
 
 @media only screen and ( max-width: 768px ){
+    .here {
+        position:relative;
+        top:-10px;
+        transition: 3s;
+    }
     .logogif{
         width: 100px;
         animation: logogif steps(14) 1s both;
@@ -390,7 +395,6 @@ a:hover {color: black; text-decoration: none;}
         background-color:white;
         width:100%;
         padding-top: 15px;
-        transition: 0.3s;
     }
     .a2 .contents .explanation,
     .a4 .contents .explanation,
