@@ -170,12 +170,58 @@
         }
         mobileCheck();
         if(ismobile){
+            console.log(window.scrollY);
+            if(window.scrollY>615/2 && window.scrollY<615+615){
+                document.getElementById("pimg1").className = "pimg here";
+                if(document.getElementById("logogif1").className==="logogif pause"){
+                    document.getElementById("logogif1").className="logogif play";
+                    document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
+                }
+            }
+            else{
+                document.getElementById("pimg1").className = "pimg";
+                document.getElementById("logogif1").className = "logogif pause";
+            }
+            if(window.scrollY>615/2+615 && window.scrollY<615+1230){
+                document.getElementById("pimg2").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg2").className = "pimg";
+            }
+            if(window.scrollY>615/2+1230 && window.scrollY<615+1845){
+                document.getElementById("pimg3").className = "pimg here";
+                if(document.getElementById("logogif2").className==="logogif pause"){
+                    document.getElementById("logogif2").className="logogif play";
+                    document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
+                }
+            }
+            else{
+                document.getElementById("pimg3").className = "pimg";
+                document.getElementById("logogif2").className = "logogif pause";
+            }
+            if(window.scrollY>615/2+1845 && window.scrollY<615+2460){
+                document.getElementById("pimg4").className = "pimg here";
+            }
+            else{
+                document.getElementById("pimg4").className = "pimg";
+            }
+            if(window.scrollY>615/2+2460 && window.scrollY<615+3075){
+                document.getElementById("pimg5").className = "pimg here";
+                if(document.getElementById("logogif3").className==="logogif pause"){
+                    document.getElementById("logogif3").className="logogif play";
+                    document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
+                }
+            }
+            else{
+                document.getElementById("pimg5").className = "pimg";
+                document.getElementById("logogif3").className = "logogif pause";
+            }
         }
         else{
             if(window.scrollY>1080/2 && window.scrollY<1080+1080){
                 document.getElementById("pimg1").className = "pimg here";
                 if(document.getElementById("logogif1").className==="logogif pause"){
-                    document.getElementById("logogif1").className="logogif play"
+                    document.getElementById("logogif1").className="logogif play";
                     document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
                 }
             }
@@ -192,7 +238,7 @@
             if(window.scrollY>1080/2+2160 && window.scrollY<1080+3240){
                 document.getElementById("pimg3").className = "pimg here";
                 if(document.getElementById("logogif2").className==="logogif pause"){
-                    document.getElementById("logogif2").className="logogif play"
+                    document.getElementById("logogif2").className="logogif play";
                     document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
                 }
             }
@@ -209,7 +255,7 @@
             if(window.scrollY>1080/2+4320 && window.scrollY<1080+5400){
                 document.getElementById("pimg5").className = "pimg here";
                 if(document.getElementById("logogif3").className==="logogif pause"){
-                    document.getElementById("logogif3").className="logogif play"
+                    document.getElementById("logogif3").className="logogif play";
                     document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
                 }
             }
