@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>체킹, 건물관리 필수앱</title>
     <link rel="stylesheet" type="text/css" href="checking.css">
+
+    <link rel="stylesheet" type="text/css" href="checking.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -12,7 +14,7 @@
     <img id="logow" class="" src="logow.png">
     <img id="logo" class="hide" src="logo.png">
     <div id="links" class="links white" style="display: inline">
-        <a href="http://www.ddhouse.co.kr" style="cursor:pointer" target="_blank"><span>디디하우스</span></a>
+        <!-- <a href="http://www.ddhouse.co.kr" style="cursor:pointer" target="_blank"><span>디디하우스</span></a> -->
         <a href="#" style="cursor:pointer"><span>맨위로</span></a>
     </div>
 </div>
@@ -22,16 +24,15 @@
         <div class="box">
             <div class="contents">
                 가장 쉽고 편리한 건물관리 앱
-                <!--<div style="display:inline-block"><img src="logo.gif" style="width:140px"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>-->
                 <h1>체킹, 건물관리가 쉬워진다</h1>
                 <div class="download">
-                    <img src="googleplay.svg" href="" target="_blank">
+                    <a href="https://play.google.com/store/apps/details?id=com.kface.kohyunmin.tenantmanagement_android" target="_blank"><img src="googleplay.svg"></a>
                 </div>
                 <div class="download">
-                    <img src="appstore.svg" href="" target="_blank">
+                    <a href="https://itunes.apple.com/us/app/apple-store/id1436815224" target="_blank"><img src="appstore.svg"></a>
                 </div>
             </div>
-            <div id="md" class="mdownload">
+            <div id="md" class="mdownload" onclick="downloadApp()">
                 앱 다운로드
             </div>
         </div>
@@ -40,15 +41,15 @@
         <div class="box">
             <div class="contents">
                 <h1>월세체크는 귀찮지만, <br>
-                    <div style="display:inline-block"><img src="logo.gif" id="logogif1" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
+                    <div style="display:inline-block"><img src="logo.png" id="logogif1" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
-                    계좌를 등록해두면, 자동으로 <span style="color:black; font-size: 1.1em">월세체크</span>가 됩니다.<br><br>
-                    계좌등록을 하지 않더라도, 핸드폰 터치 한 번으로, <br>언제 어디서나 월세체크를 할 수 있습니다.
+                    <span style="color:black; font-size: 1.1em">핸드폰 터치 한 번</span>으로, <br>언제 어디서나 월세체크를 할 수 있습니다.<br><br>
+                    월간, 월세입금 일정을 한 눈에 확인할 수 있습니다.<br>
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" id="pimg1" src="area1_phone.svg">
+                <img class="pimg" id="pimg1" src="area1_phone.png">
             </div>
         </div>
     </div>
@@ -56,7 +57,7 @@
         <div class="box">
             <div class="contents">
                 <h1>미납자 관리는 피곤하지만, <br>
-                    <span style="color:#E62B1E; font-size: 1.2em ">체킹</span>은 쉽습니다
+                    <div style="display:inline-block"><img src="logo.png" id="logogif1" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     월세 하루 전날, <br>세입자에게 자동으로 <span style="color:white; font-size: 1.1em">납부문자</span>를 보내드립니다.<br><br>
@@ -64,7 +65,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" id="pimg2" src="area2_phone.svg">
+                <img class="pimg" id="pimg2" src="area2_phone.png">
             </div>
         </div>
     </div>
@@ -72,15 +73,15 @@
         <div class="box">
             <div class="contents">
                 <h1>계약만기일 체크는 힘들지만, <br>
-                    <div style="display:inline-block"><img src="logo.gif" id="logogif2" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
+                    <div style="display:inline-block"><img src="logo.png" id="logogif2" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     <span style="color:black; font-size: 1.1em">계약 끝 1달 전</span>에 만기되는 세입자를 알려드립니다.<br><br>
-                    세입자들의 계약종료일을 <span style="color:black; font-size: 1.1em">한 화면에 정리</span>해서 보여드립니다.
+                    연간 계약종료 일정을 <span style="color:black; font-size: 1.1em">한 화면에 정리</span>해서 보여드립니다.
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" id="pimg3" src="area3_phone.svg">
+                <img class="pimg" id="pimg3" src="area3_phone.png">
             </div>
         </div>
     </div>
@@ -88,7 +89,7 @@
         <div class="box">
             <div class="contents">
                 <h1>세입자관리는 복잡하지만, <br>
-                    <span style="color:#E62B1E; font-size: 1.2em ">체킹</span>은 쉽습니다
+                    <div style="display:inline-block"><img src="logo.png" id="logogif1" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     터치 한번으로, <br>
@@ -97,7 +98,7 @@
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" id="pimg4" src="area4_phone.svg">
+                <img class="pimg" id="pimg4" src="area4_phone.png">
             </div>
         </div>
     </div>
@@ -105,15 +106,15 @@
         <div class="box">
             <div class="contents">
                 <h1>파악하는 것은 번거롭지만, <br>
-                    <div style="display:inline-block"><img src="logo.gif" id="logogif3" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
+                    <div style="display:inline-block"><img src="logo.png" id="logogif3" class="logogif pause"></div><div style="display:inline-block; transform: translateY(-5px);">은 쉽습니다</div>
                 </h1><br>
                 <div class="explanation">
                     건물에 대한 <span style="color:black; font-size: 1.1em">모든 내용이 한 눈에</span> 들어옵니다.<br><br>
-                    월세받는 날, 미납, 계약만기, 빈방... <br>한 눈에 파악할 수 있는 화면을 제공합니다.
+                    월세받는 날, 미납, 계약만기, 빈방 등등... <br>한 눈에 파악할 수 있는 화면을 제공합니다.
                 </div>
             </div>
             <div class="phone">
-                <img class="pimg" id="pimg5" src="area5_phone.svg">
+                <img class="pimg" id="pimg5" src="area5_phone.png">
             </div>
         </div>
     </div>
@@ -128,10 +129,10 @@
                     <span style="font-size:1.1em; color:white; font-weight: bold;">관리현황</span>을 한눈에 파악할 수 있습니다.<br><br>
                 </h2>
                 <div class="download">
-                    <img src="googleplay.svg" href="">
+                    <a href="https://play.google.com/store/apps/details?id=com.kface.kohyunmin.tenantmanagement_android" target="_blank"><img src="googleplay.svg"></a>
                 </div>
                 <div class="download">
-                    <img src="appstore.svg" href="">
+                    <a href="https://itunes.apple.com/us/app/apple-store/id1436815224" target="_blank"><img src="appstore.svg"></a>
                 </div>
             </div>
             <div class="phone">
@@ -139,12 +140,44 @@
             </div>
         </div>
     </div>
+    <div class="footer">
+
+        <div>(주)케이페이스 | 사업자등록번호 487-88-00831 | 개인정보보호책임자: 이준호
+            <br>이메일 admin@ddhouse.co.kr | 대표: 김표종 | 경상북도 포항시 북구 우창동로 70, 603호(우현동)
+            <br>고객센터 TEL. 054-254-0732 (업무시간: 평일(월~금) 09:30-18:00)
+
+        </div>
+        <br>
+        <div class="copyright">
+            이용약관 | 개인정보취급방침
+            <br> <br>
+            Copyright@ <img src="bottom_logo.jpg"> All Right Reserved.</div>
+    </div>
 </div>
 <!--E62B1E-->
 </body>
 </html>
 
 <script>
+
+    function downloadApp () {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Windows Phone must come first because its UA also contains "Android"
+        if (/windows phone/i.test(userAgent)) {
+            location.href = "https://play.google.com/store/apps/details?id=com.kface.kohyunmin.tenantmanagement_android";
+        }
+
+        if (/android/i.test(userAgent)) {
+            location.href = "https://play.google.com/store/apps/details?id=com.kface.kohyunmin.tenantmanagement_android";
+        }
+
+        // iOS detection from: http://stackoverflow.com/a/9039885/177710
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            location.href = "https://itunes.apple.com/us/app/apple-store/id1436815224";
+        }
+    }
+
     var ismobile = false;
     mobileCheck();
     window.onscroll = function() {myFunction()};
@@ -155,6 +188,7 @@
     }
 
     function myFunction() {
+
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             document.getElementById("attop").className = "logo notTop";
             document.getElementById("links").className = "links";
@@ -170,98 +204,97 @@
         }
         mobileCheck();
         if(ismobile){
-            console.log(window.scrollY);
-            if(window.scrollY>615/2 && window.scrollY<615+615){
+            if(document.documentElement.scrollTop>615/2 && document.documentElement.scrollTop<615+615){
                 document.getElementById("pimg1").className = "pimg here";
-                if(document.getElementById("logogif1").className==="logogif pause"){
-                    document.getElementById("logogif1").className="logogif play";
-                    document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
-                }
+                // if(document.getElementById("logogif1").className==="logogif pause"){
+                //     document.getElementById("logogif1").className="logogif play";
+                //     document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
+                // }
             }
             else{
                 document.getElementById("pimg1").className = "pimg";
-                document.getElementById("logogif1").className = "logogif pause";
+                // document.getElementById("logogif1").className = "logogif pause";
             }
-            if(window.scrollY>615/2+615 && window.scrollY<615+1230){
+            if(document.documentElement.scrollTop>615/2+615 && document.documentElement.scrollTop<615+1230){
                 document.getElementById("pimg2").className = "pimg here";
             }
             else{
                 document.getElementById("pimg2").className = "pimg";
             }
-            if(window.scrollY>615/2+1230 && window.scrollY<615+1845){
+            if(document.documentElement.scrollTop>615/2+1230 && document.documentElement.scrollTop<615+1845){
                 document.getElementById("pimg3").className = "pimg here";
-                if(document.getElementById("logogif2").className==="logogif pause"){
-                    document.getElementById("logogif2").className="logogif play";
-                    document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
-                }
+                // if(document.getElementById("logogif2").className==="logogif pause"){
+                //     document.getElementById("logogif2").className="logogif play";
+                //     document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
+                // }
             }
             else{
                 document.getElementById("pimg3").className = "pimg";
-                document.getElementById("logogif2").className = "logogif pause";
+                // document.getElementById("logogif2").className = "logogif pause";
             }
-            if(window.scrollY>615/2+1845 && window.scrollY<615+2460){
+            if(document.documentElement.scrollTop>615/2+1845 && document.documentElement.scrollTop<615+2460){
                 document.getElementById("pimg4").className = "pimg here";
             }
             else{
                 document.getElementById("pimg4").className = "pimg";
             }
-            if(window.scrollY>615/2+2460 && window.scrollY<615+3075){
+            if(document.documentElement.scrollTop>615/2+2460 && document.documentElement.scrollTop<615+3075){
                 document.getElementById("pimg5").className = "pimg here";
-                if(document.getElementById("logogif3").className==="logogif pause"){
-                    document.getElementById("logogif3").className="logogif play";
-                    document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
-                }
+                // if(document.getElementById("logogif3").className==="logogif pause"){
+                //     document.getElementById("logogif3").className="logogif play";
+                //     document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
+                // }
             }
             else{
                 document.getElementById("pimg5").className = "pimg";
-                document.getElementById("logogif3").className = "logogif pause";
+                // document.getElementById("logogif3").className = "logogif pause";
             }
         }
         else{
-            if(window.scrollY>1080/2 && window.scrollY<1080+1080){
+            if(document.documentElement.scrollTop>1080/2 && document.documentElement.scrollTop<1080+1080){
                 document.getElementById("pimg1").className = "pimg here";
-                if(document.getElementById("logogif1").className==="logogif pause"){
-                    document.getElementById("logogif1").className="logogif play";
-                    document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
-                }
+                // if(document.getElementById("logogif1").className==="logogif pause"){
+                //     document.getElementById("logogif1").className="logogif play";
+                //     document.getElementById("logogif1").src = "logo.gif"+"?a="+ Math.random();
+                // }
             }
             else{
                 document.getElementById("pimg1").className = "pimg";
-                document.getElementById("logogif1").className = "logogif pause";
+                // document.getElementById("logogif1").className = "logogif pause";
             }
-            if(window.scrollY>1080/2+1080 && window.scrollY<1080+2160){
+            if(document.documentElement.scrollTop>1080/2+1080 && document.documentElement.scrollTop<1080+2160){
                 document.getElementById("pimg2").className = "pimg here";
             }
             else{
                 document.getElementById("pimg2").className = "pimg";
             }
-            if(window.scrollY>1080/2+2160 && window.scrollY<1080+3240){
+            if(document.documentElement.scrollTop>1080/2+2160 && document.documentElement.scrollTop<1080+3240){
                 document.getElementById("pimg3").className = "pimg here";
-                if(document.getElementById("logogif2").className==="logogif pause"){
-                    document.getElementById("logogif2").className="logogif play";
-                    document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
-                }
+                // if(document.getElementById("logogif2").className==="logogif pause"){
+                //     document.getElementById("logogif2").className="logogif play";
+                //     document.getElementById("logogif2").src = "logo.gif"+"?a="+ Math.random();
+                // }
             }
             else{
                 document.getElementById("pimg3").className = "pimg";
-                document.getElementById("logogif2").className = "logogif pause";
+                // document.getElementById("logogif2").className = "logogif pause";
             }
-            if(window.scrollY>1080/2+3240 && window.scrollY<1080+4320){
+            if(document.documentElement.scrollTop>1080/2+3240 && document.documentElement.scrollTop<1080+4320){
                 document.getElementById("pimg4").className = "pimg here";
             }
             else{
                 document.getElementById("pimg4").className = "pimg";
             }
-            if(window.scrollY>1080/2+4320 && window.scrollY<1080+5400){
+            if(document.documentElement.scrollTop>1080/2+4320 && document.documentElement.scrollTop<1080+5400){
                 document.getElementById("pimg5").className = "pimg here";
-                if(document.getElementById("logogif3").className==="logogif pause"){
-                    document.getElementById("logogif3").className="logogif play";
-                    document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
-                }
+                // if(document.getElementById("logogif3").className==="logogif pause"){
+                //     document.getElementById("logogif3").className="logogif play";
+                //     document.getElementById("logogif3").src = "logo.gif"+"?a="+ Math.random();
+                // }
             }
             else{
                 document.getElementById("pimg5").className = "pimg";
-                document.getElementById("logogif3").className = "logogif pause";
+                // document.getElementById("logogif3").className = "logogif pause";
             }
         }
 

@@ -5,6 +5,7 @@
 }
 body {
     margin: 0;
+    font-family: "맑은 고딕";
 }
 
 a:link {color: black; text-decoration: none;}
@@ -15,78 +16,79 @@ a:hover {color: black; text-decoration: none;}
 .links.white a:visited {color: white; text-decoration: none;}
 .links.white a:hover {color: white; text-decoration: none;}
 
-/* 코너 */
+/*!* 코너 *!*/
 
-.a2 .corner{
-    position:absolute;
-    top:2060px;
-    right:0;
-    width:0px;
-    height:0px;
-    border-top: 100px solid #d9d9d9;
-    border-right: 100px solid #8c8c8c;
-    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-}
+/*.a2 .corner{*/
+    /*position:absolute;*/
+    /*top:2060px;*/
+    /*right:0;*/
+    /*width:0px;*/
+    /*height:0px;*/
+    /*border-top: 100px solid #d9d9d9;*/
+    /*border-right: 100px solid #8c8c8c;*/
+    /*-webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*-moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+/*}*/
 
-.a3 .corner{
-    position:absolute;
-    top:3140px;
-    right:0;
-    width:0px;
-    height:0px;
-    border-top: 100px solid #d9d9d9;
-    border-right: 100px solid #ffffff;
-    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-}
+/*.a3 .corner{*/
+    /*position:absolute;*/
+    /*top:3140px;*/
+    /*right:0;*/
+    /*width:0px;*/
+    /*height:0px;*/
+    /*border-top: 100px solid #d9d9d9;*/
+    /*border-right: 100px solid #ffffff;*/
+    /*-webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*-moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+/*}*/
 
-.a4 .corner{
-    position:absolute;
-    top:4220px;
-    right:0;
-    width:0px;
-    height:0px;
-    border-top: 100px solid #d9d9d9;
-    border-right: 100px solid #8c8c8c;
-    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-}
+/*.a4 .corner{*/
+    /*position:absolute;*/
+    /*top:4220px;*/
+    /*right:0;*/
+    /*width:0px;*/
+    /*height:0px;*/
+    /*border-top: 100px solid #d9d9d9;*/
+    /*border-right: 100px solid #8c8c8c;*/
+    /*-webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*-moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+/*}*/
 
-.a5 .corner{
-    position:absolute;
-    top:5300px;
-    right:0;
-    width:0px;
-    height:0px;
-    border-top: 100px solid #d9d9d9;
-    border-right: 100px solid #ffffff;
-    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-}
+/*.a5 .corner{*/
+    /*position:absolute;*/
+    /*top:5300px;*/
+    /*right:0;*/
+    /*width:0px;*/
+    /*height:0px;*/
+    /*border-top: 100px solid #d9d9d9;*/
+    /*border-right: 100px solid #ffffff;*/
+    /*-webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*-moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+/*}*/
 
-.a6 .corner{
-    position:absolute;
-    top:6380px;
-    right:0;
-    width:0px;
-    height:0px;
-    border-top: 100px solid #d9d9d9;
-    border-right: 100px solid #8c8c8c;
-    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-    box-shadow: -5px -5px 5px rgba(0,0,0,0.5);
-}
+/*.a6 .corner{*/
+    /*position:absolute;*/
+    /*top:6380px;*/
+    /*right:0;*/
+    /*width:0px;*/
+    /*height:0px;*/
+    /*border-top: 100px solid #d9d9d9;*/
+    /*border-right: 100px solid #8c8c8c;*/
+    /*-webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*-moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+    /*box-shadow: -5px -5px 5px rgba(0,0,0,0.5);*/
+/*}*/
 
 /*애니메이션을 위한*/
 .pimg{
-    positon:relative;
+    position:relative;
     top:0px;
     transition: 3s;
+
 }
 .here {
     position:relative;
@@ -105,6 +107,27 @@ a:hover {color: black; text-decoration: none;}
 .logo img {
     width:90px;
     padding: 10px;
+}
+
+.footer{
+    width:100%;
+    color: #525252;
+    font-size:0.8em;
+    background-color: #e5e5e5;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.footer div{
+    width: auto;
+    text-align: center;
+    display:inline-block;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.footer .copyright{
+
+    text-align: center;
+    margin-left: 0;
 }
 @media only screen and ( max-width: 768px ){
     .logo img {
@@ -148,9 +171,9 @@ a:hover {color: black; text-decoration: none;}
 .a4 .pimg,
 .a5 .pimg,
 .a6 .pimg{
-    width: 500%;
-    transition: 3s;
+    width: 500px;
 }
+
 
 .mdownload{
     display:none;
@@ -159,45 +182,12 @@ a:hover {color: black; text-decoration: none;}
     width : 100%;
     height: 1080px;
 }
-@media only screen and ( max-width: 768px ){
-    /*내용*/
-    #wrapper .area{
-        width : 100%;
-        height: 615px;
-    }
-}
 .a3,
 .a5
 {
-    background-color: #8c8c8c;
-}
-.a3 .explanation,
-.a5 .explanation{
-    color: #e8e8e8;
-    border-left: 4px solid #E62B1E;
-    padding-left: 5px;
+    background-color: #222;
 }
 
-.a2 .explanation,
-.a4 .explanation,
-.a6 .explanation
-{
-    color: #525252;
-    font-weight: bold;
-    border-left: 4px solid #E62B1E;
-    padding-left: 5px;
-}
-.a2 .contents,
-.a3 .contents,
-.a4 .contents,
-.a5 .contents,
-.a6 .contents,
-.a7 .contents
- {
-    position:absolute;
-    margin-left: 10%;
-    font-size: 1.2em;
-}
 
 /*내용 Area1*/
 .a1
@@ -233,7 +223,7 @@ a:hover {color: black; text-decoration: none;}
 .a1 .download {
     display: inline-block;
     align-items: center;
-    width: 230px;
+    width: 185px;
     text-align: center;
     cursor: pointer;
 }
@@ -251,18 +241,17 @@ a:hover {color: black; text-decoration: none;}
     font-weight: bold;
     text-align: center;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
 }
 .mdownload.scrolled {
     bottom: 0;
     left: 0;
     right: 0;
     border-radius: 0;
-}
-@media only screen and ( max-width: 768px ) {
-    .area .box {
-        padding: 0px;
-    }
 }
 
 .area .box .phone {
@@ -342,11 +331,56 @@ a:hover {color: black; text-decoration: none;}
     margin-left:55%;
     top:6700px;
 }
+.explanation{
+    border-left: 4px solid #E62B1E;
+    padding-left: 5px;
+}
 
+.a3 .explanation,
+.a5 .explanation{
+    color: #e8e8e8;
+
+}
+
+.a2 .explanation,
+.a4 .explanation,
+.a6 .explanation
+{
+    color: #525252;
+    font-weight: bold;
+}
+.a2 .contents,
+.a3 .contents,
+.a4 .contents,
+.a5 .contents,
+.a6 .contents,
+.a7 .contents
+{
+    position:absolute;
+    margin-left: 10%;
+    font-size: 1.2em;
+}
 @media only screen and ( max-width: 768px ){
+    .area .box {
+        padding: 0px;
+    }
+    #wrapper .area{
+        width : 100%;
+        height: 615px;
+    }
+    #wrapper .a1
+    {
+        background-image: url("area1m.jpg");
+        background-size: cover;
+        background-position: center;
+    }
     .here {
         position:relative;
         top:-10px;
+        -webkit-transition: 3s;
+        -moz-transition: 3s;
+        -ms-transition: 3s;
+        -o-transition: 3s;
         transition: 3s;
     }
     .logogif{
@@ -364,11 +398,10 @@ a:hover {color: black; text-decoration: none;}
     }
     .area .contents{
         position:absolute;
-        width:400px;
-        left: 50%;
-        margin-left:-200px;
+        width:100%;
         text-align: center;
         font-size: 0.9em;
+        margin-left: 0;
     }
     .a2 .contents{
         top:650px;
@@ -392,9 +425,11 @@ a:hover {color: black; text-decoration: none;}
         position:absolute;
         top:450px;
         z-index: 90;
-        background-color:white;
         width:100%;
-        padding-top: 15px;
+
+        background-color:white;
+        padding: 15px 0px 0px 0px;
+        border-left: 0px;
     }
     .a2 .contents .explanation,
     .a4 .contents .explanation,
@@ -403,13 +438,13 @@ a:hover {color: black; text-decoration: none;}
     }
     .a3 .contents .explanation,
     .a5 .contents .explanation{
-        background-color:#8c8c8c;
+        background-color:#222;
     }
     .area .box .phone {
         position: absolute;
-        left:50%;
-        margin-left:-170px;
-        width:340px;
+        left:0;
+        margin-left:0;
+        width:100%;
         height:340px;
         overflow: hidden;
 
@@ -435,12 +470,20 @@ a:hover {color: black; text-decoration: none;}
     .area .box .phone img {
         display:block;
         width: 100%;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
         transform: translateY(0);
         transition: 1s;
     }
     .area .box .phone img.nolook {
         display:block;
         width: 100%;
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
         transform: translateY(-20px);
         transition: 1s;
     }
@@ -453,9 +496,11 @@ a:hover {color: black; text-decoration: none;}
         left:0;
         margin-left: 0;
         width:100%;
+        transform: translateY(-90px);
     }
     .a1 h1 {
         font-size:1.8em;
+
     }
 
     .download,
@@ -463,4 +508,5 @@ a:hover {color: black; text-decoration: none;}
     {
         display:none;
     }
+
 }
